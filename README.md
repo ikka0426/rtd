@@ -1,16 +1,18 @@
 # RTD 📖
 
-RTD (i.e. RustyToDo) 是一个用 Rust 编写的简单命令行TODO工具。
+RTD (i.e. RustyToDo) is a simple command-line TODO tool written in Rust.
 
-## 功能特性 ✴️
+English | [简体中文](./README_CN.md)
 
-- 可以创建多个任务列表
-- 友好的命令行界面
-- 使用json文件存储
+## Features ✨
 
-## 安装 ⚙️
+- Multiple task lists can be created.
+- User-friendly command-line interface.
+- Uses JSON files for storage.
 
-确保你已经安装了[Rust](https://www.rust-lang.org/tools/install)。
+## Installation ⚙️
+
+Ensure that you have [Rust](https://www.rust-lang.org/tools/install) installed.
 
 ```bash
 $ git clone https://github.com/ikka0426/rtd.git
@@ -18,40 +20,40 @@ $ cd rtd
 $ cargo build --release
 ```
 
-## 使用 💻
+## Usage 💻
 
-### 选择任务列表
+### Selecting a todo list
 
 ```bash
 ./rtd use <TODOLIST>
 ```
 
-### 添加任务
+### Adding a task
 
 ```bash
 ./rtd add <EVENT>
 ```
 
-### 修改任务完成情况
+### Modifying the completion status of a task
 
 ```bash
 ./rtd ch [-r] <ID>
 ```
 
-使用以下命令来了解更多使用方法
+Use the following command to learn more about usage:
 
 ```bash
 ./rtd help
 ```
 
-## 贡献 👥
+## Contribution 👥
 
-如果你想为 RTD 做贡献，欢迎提出问题（issues）或发起合并请求（pull requests）.
+If you would like to contribute to RTD, feel free to raise issues or initiate pull requests.
 
-## 版权和许可证 📝
+## Copyright and License 📝
 
-RTD 是基于 MIT 许可证发布的开源项目。详细信息请查阅 LICENSE 文件.
+RTD is released under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-## 作者
+## Author
 
 <a href="https://github.com/ikka0426"><img alt="Static Badge" src="https://img.shields.io/badge/github-ikka0426-green"></a>
