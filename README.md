@@ -35,7 +35,7 @@ $ cargo build --release
 ### 修改任务完成情况
 
 ```bash
-./rtd ch <ID> -<c|n>
+./rtd ch [-r] <ID>
 ```
 
 使用以下命令来了解更多使用方法
