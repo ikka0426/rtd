@@ -83,7 +83,7 @@ impl Cli {
         }
       },
       Err(_) => {
-        println!("Can not find todos");
+        // println!("Can not find todos");
       }
     }
     match &self.command {
